@@ -1,0 +1,1 @@
+javascript:const nlsLinks=document.evaluate("//td[contains(., 'digital.nls.uk')]",document,null,XPathResult.ANY_TYPE,null),nlsLink=nlsLinks.iterateNext();window.open("https://commons.wikimedia.org/w/index.php?title=Special:LinkSearch&target="+nlsLink.textContent.replace("https://",""));
