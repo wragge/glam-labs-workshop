@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name        NLS add Wikimedia links
 // @namespace   wraggelabs.com/nls-wiki-links
+// @match       *://digital.nls.uk/*
+// @connect     commons.wikimedia.org
 // @grant       GM_xmlhttpRequest
 // @version     1.0
-// @author      -
+// @author      Tim Sherratt
 // @description 23/06/2026, 10:37:18
 // ==/UserScript==
 (function() {
